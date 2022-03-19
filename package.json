@@ -1,0 +1,28 @@
+{
+  "name": "mkname",
+  "version": "0.0.2",
+  "description": "",
+  "type": "module",
+  "preferGlobal": true,
+  "bin": {
+    "npm-name": "bin/index.js",
+    "mkname": "bin/index.js"
+  },
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "nodemon bin/index.js hello"
+  },
+  "keywords": [],
+  "author": "Cooper Runyan",
+  "license": "EPL",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "tslib": "^2.3.1",
+    "commander": "^9.0.0",
+    "node-fetch": "^3.2.3"
+  }
+}
